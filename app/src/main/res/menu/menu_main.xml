@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Activity.MainActivity">
+
+    <item android:id="@+id/item_sair"
+        android:title="@string/item_sair"
+        android:orderInCategory="300"
+        app:showAsAction="never" />
+
+
+    <item android:id="@+id/item_carregar_dados"
+        android:title="@string/item_carregar_dados"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/item_abrir_mapa"
+        android:title="@string/item_mapa"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>

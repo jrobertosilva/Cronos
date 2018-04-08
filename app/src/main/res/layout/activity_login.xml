@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/largura_logo"
+        android:layout_height="@dimen/altura_logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/edit_nome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Digite seu nome"
+        android:inputType="textPersonName"
+        android:textColor="@color/textColorPrimary" />
+
+    <EditText
+        android:id="@+id/edit_cod_pais"
+        android:layout_width="@dimen/largura_codigo_pais"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edit_nome"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="+55"
+        android:inputType="number"
+        android:textColor="@color/textColorPrimary" />
+
+    <EditText
+        android:id="@+id/edit_ddd"
+        android:layout_width="@dimen/largura_codigo_pais"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edit_cod_pais"
+        android:layout_alignBottom="@+id/edit_cod_pais"
+        android:layout_toEndOf="@+id/edit_cod_pais"
+        android:layout_toRightOf="@+id/edit_cod_pais"
+        android:ems="10"
+        android:hint="11"
+        android:inputType="number"
+        android:textColor="@color/textColorPrimary" />
+
+    <EditText
+        android:id="@+id/edit_telefone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edit_ddd"
+        android:layout_toEndOf="@+id/edit_ddd"
+        android:layout_toRightOf="@+id/edit_ddd"
+        android:ems="10"
+        android:hint="991989925"
+        android:inputType="number"
+        android:textColor="@color/textColorPrimary" />
+
+    <Button
+        android:id="@+id/bt_cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edit_telefone"
+        android:layout_marginTop="56dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/botao_cadastrar" />
+</RelativeLayout>

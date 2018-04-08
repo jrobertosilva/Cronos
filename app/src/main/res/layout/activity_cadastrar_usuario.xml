@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textColorPrimary"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/altura_logo_add_usuario"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/adicionar_usuario" />
+
+            <EditText
+                android:id="@+id/edit_add_usuario_cod_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/edit_chave_cliente"
+                android:layout_alignBottom="@+id/edit_chave_cliente"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:ems="10"
+                android:hint="@string/hint_codigo_cliente"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/edit_chave_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imageView3"
+                android:layout_marginTop="24dp"
+                android:ems="10"
+                android:hint="@string/hint_chave_cliente"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edit_email_add_usuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/edit_add_usuario_cod_cliente"
+                android:layout_marginTop="17dp"
+                android:ems="10"
+                android:hint="@string/hint_email_login_cronos"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/edit_senha_add_usuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/edit_email_add_usuario"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/hint_senha_login_cronos"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/edit_confirmar_senha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/edit_senha_add_usuario"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/hint_confirmar_senha"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/botao_novo_usuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/botao_novo_usuario"
+                android:textColor="@color/textColorPrimary" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

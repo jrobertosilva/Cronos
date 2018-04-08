@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Cronos</string>
+    <string name="botao_cadastrar">Cadastrar</string>
+    <string name="validador_cabecalho">Validação</string>
+    <string name="validador_descricao">Você recebeu um SMS para validação do seu número, digite o código de validação abaixo:</string>
+    <string name="botao_validar">Validar</string>
+    <string name="hint_email_login_cronos">Inserir o e-mail</string>
+    <string name="hint_senha_login_cronos">Inserir senha</string>
+    <string name="botao_logar_cronos">ENTRAR</string>
+    <string name="texto_cadastrar_usuario">CRIAR NOVA CONTA</string>
+    <string name="hint_codigo_cliente">Cliente</string>
+    <string name="hint_chave_cliente">Chave</string>
+    <string name="hint_confirmar_senha">Digite novamente a senha</string>
+    <string name="botao_novo_usuario">CADASTRAR</string>
+    <string name="botao_acessar_camera">Câmera</string>
+    <string name="chk_manter_conectado">Manter Logado</string>
+    <string name="item_sair">Sair</string>
+    <string name="botao_carregar_dados">Importar Dados</string>
+    <string name="item_carregar_dados">Sincronizar</string>
+    <string name="item_mapa">Mapa</string>
+    <string name="texto_trocar_senha">ESQUECEU A SENHA?</string>
+    <string name="texto_login_ou_cadastrar"> OU </string>
+    <string name="title_activity_act_principal">Cronos</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="descricao_arvore_mapa">Endereço</string>
+    <string name="latitude_arvore_mapa">Latitude</string>
+    <string name="longitude_arvore_mapa">Longitude</string>
+    <string name="idade_arvore_mapa">Idade em anos</string>
+    <string name="diametro_arvore_mapa">Diâmetro</string>
+    <string name="altura_arvore_mapa">Altura da Árvore</string>
+    <string name="altura_ramo_arvore_mapa">Altura até o primeiro ramo</string>
+    <string name="altura_fiacao_arvore">Altura até o fiação elétrica</string>
+    <string name="altura_copa_arvore">Altura até a copa</string>
+    <string name="doenca_arvore">Doença ou Praga</string>
+    <string name="obs_arvore">Observação</string>
+    <string name="botao_gravar_marcador">Gravar Dados</string>
+    <string name="botao_obter_local">Obter Local Atual</string>
+    <string name="texto_sp_especie">Espécie:</string>
+    <string name="texto_sp_fiacao">Tipo de Fiação:</string>
+    <string name="texto_sp_inclinacao">Inclinação do Tronco:</string>
+    <string name="texto_sp_calcada">Largura da Calçada:</string>
+    <string name="texto_sp_plantio">Pavimentação:</string>
+    <string name="texto_sp_radicular">Sistema Radicular:</string>
+    <string name="texto_sp_intervencao">Tipo de Intervenção:</string>
+    <string name="texto_sp_poda">Tipo de Poda:</string>
+    <string name="texto_sp_qualidade">Tipo de Qualidade:</string>
+    <string name="texto_sp_area">Área Livre:</string>
+    <string name="botao_ultima_foto">Última Foto</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
